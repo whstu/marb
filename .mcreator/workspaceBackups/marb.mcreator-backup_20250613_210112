@@ -119,30 +119,6 @@
           "src/main/resources/data/marb/recipe/bn_to_xj.json"
         ]
       }
-    },
-    {
-      "name": "BnToLeg",
-      "type": "recipe",
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "bn_to_leg",
-      "metadata": {
-        "files": [
-          "src/main/resources/data/marb/recipe/bn_to_leg.json"
-        ]
-      }
-    },
-    {
-      "name": "BnToShoe",
-      "type": "recipe",
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "bn_to_shoe",
-      "metadata": {
-        "files": [
-          "src/main/resources/data/marb/recipe/bn_to_shoe.json"
-        ]
-      }
     }
   ],
   "variable_elements": [],

@@ -1,0 +1,166 @@
+{
+  "mod_elements": [
+    {
+      "name": "Bn",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "bn",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/marb/models/item/bn.json",
+          "src/main/resources/assets/marb/items/bn.json",
+          "src/main/java/com/whstu/marb/item/BnItem.java"
+        ]
+      }
+    },
+    {
+      "name": "MarbTab",
+      "type": "tab",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "marb_tab",
+      "metadata": {
+        "files": []
+      }
+    },
+    {
+      "name": "StickToBn",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "stick_to_bn",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/marb/recipe/stick_to_marb.json"
+        ]
+      }
+    },
+    {
+      "name": "MarbToStick",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "marb_to_stick",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/marb/recipe/marb_to_stick.json"
+        ]
+      }
+    },
+    {
+      "name": "Marb",
+      "type": "livingentity",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "marb",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/marb/items/marb_spawn_egg.json",
+          "src/main/java/com/whstu/marb/client/renderer/MarbRenderer.java",
+          "src/main/resources/data/marb/neoforge/biome_modifier/marb_biome_modifier.json",
+          "src/main/java/com/whstu/marb/entity/MarbEntity.java"
+        ]
+      }
+    },
+    {
+      "name": "KillMarb",
+      "type": "loottable",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "kill_marb",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/marb/loot_table/entities/marb.json"
+        ]
+      }
+    },
+    {
+      "name": "MarbArmor",
+      "type": "armor",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "marb_armor",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/marb/items/marb_armor_boots.json",
+          "src/main/java/com/whstu/marb/item/MarbArmorItem.java",
+          "src/main/resources/assets/marb/models/item/marb_armor_chestplate.json",
+          "src/main/resources/assets/marb/models/item/marb_armor_boots.json",
+          "src/main/resources/assets/marb/models/item/marb_armor_helmet.json",
+          "src/main/resources/assets/marb/equipment/marb_armor.json",
+          "src/main/resources/assets/marb/items/marb_armor_leggings.json",
+          "src/main/resources/assets/marb/items/marb_armor_helmet.json",
+          "src/main/resources/assets/marb/items/marb_armor_chestplate.json",
+          "src/main/resources/assets/marb/models/item/marb_armor_leggings.json"
+        ]
+      }
+    }
+  ],
+  "variable_elements": [],
+  "sound_elements": [],
+  "tag_elements": {
+    "ITEMS:minecraft:chest_armor": [
+      "~CUSTOM:MarbArmor.body"
+    ],
+    "ITEMS:minecraft:leg_armor": [
+      "~CUSTOM:MarbArmor.legs"
+    ],
+    "ITEMS:minecraft:swords": [],
+    "ITEMS:minecraft:head_armor": [
+      "~CUSTOM:MarbArmor.helmet"
+    ],
+    "ITEMS:minecraft:foot_armor": [
+      "~CUSTOM:MarbArmor.boots"
+    ]
+  },
+  "tab_element_order": {},
+  "language_map": {
+    "en_us": {
+      "item.marb.marb_spawn_egg": "马博 Spawn Egg",
+      "item_group.marb.marb": "马博",
+      "item.marb.marb_armor_helmet": "马博铁头",
+      "item.marb.marb_armor_chestplate": "马博胸甲",
+      "item_group.marb.marb_tab": "马博",
+      "item.marb.bn": "博奶",
+      "item.marb.marb_armor_boots": "马博金靴",
+      "item.marb.marb_armor_leggings": "马博钢腿",
+      "item.marb.bn.description_0": "可吸食",
+      "entity.marb.marb": "马博"
+    },
+    "zh_cn": {
+      "item.marb.marb_spawn_egg": "马博 Spawn Egg",
+      "item_group.marb.marb": "马博",
+      "item.marb.marb_armor_helmet": "马博铁头",
+      "item.marb.marb_armor_chestplate": "马博胸甲",
+      "item_group.marb.marb_tab": "马博",
+      "item.marb.bn": "博奶",
+      "item.marb.marb_armor_boots": "马博金靴",
+      "item.marb.marb_armor_leggings": "马博钢腿",
+      "item.marb.bn.description_0": "可吸食",
+      "entity.marb.marb": "马博"
+    }
+  },
+  "foldersRoot": {
+    "name": "~",
+    "children": []
+  },
+  "workspaceSettings": {
+    "modid": "marb",
+    "modName": "马博",
+    "version": "0.0.0a",
+    "author": "WHSTU",
+    "websiteURL": "https://whstu.dpdns.org",
+    "license": "All Rights Reserved",
+    "serverSideOnly": false,
+    "modPicture": "marb_milk",
+    "requiredMods": [],
+    "dependencies": [],
+    "dependants": [],
+    "mcreatorDependencies": [],
+    "currentGenerator": "neoforge-1.21.4",
+    "credits": "卓然第三帝国提供技术支持",
+    "modElementsPackage": "com.whstu.marb"
+  },
+  "mcreatorVersion": 202500113416
+}

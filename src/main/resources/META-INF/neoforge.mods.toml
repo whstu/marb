@@ -1,0 +1,35 @@
+modLoader="javafml"
+loaderVersion="[4,)"
+license="All Rights Reserved"
+
+[[mods]]
+modId="marb"
+version="0.0.0"
+displayName="\u9A6C\u535A"
+displayURL="https://whstu.dpdns.org"
+logoFile="logo.png"
+credits="\u5353\u7136\u7B2C\u4E09\u5E1D\u56FD\u63D0\u4F9B\u6280\u672F\u652F\u6301"
+authors="WHSTU"
+
+# Start of user code block mod configuration
+# End of user code block mod configuration
+
+[[dependencies.marb]]
+    modId="neoforge"
+    type="required"
+    versionRange="[21.4.123,)"
+    ordering="AFTER"
+    side="BOTH"
+
+[[dependencies.marb]]
+    modId="minecraft"
+    type="required"
+    versionRange="[1.21.4]"
+    ordering="AFTER"
+    side="BOTH"
+
+
+
+
+# Start of user code block dependencies configuration
+# End of user code block dependencies configuration

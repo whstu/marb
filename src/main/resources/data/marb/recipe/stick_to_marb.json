@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "group": "marb",
+  "category": "misc",
+  "ingredients": [
+    "minecraft:stick"
+  ],
+  "result": {
+    "id": "marb:bn",
+    "count": 1
+  }
+}

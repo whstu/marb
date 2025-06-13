@@ -1,0 +1,148 @@
+{
+  "mod_elements": [
+    {
+      "name": "Marb",
+      "type": "tab",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "marb",
+      "metadata": {
+        "files": []
+      }
+    },
+    {
+      "name": "Bn",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "bn",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/marb/models/item/bn.json",
+          "src/main/java/com/whstu/marb/item/BnItem.java"
+        ]
+      }
+    },
+    {
+      "name": "StickToBn",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "stick_to_bn",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/marb/recipes/stick_to_bn.json"
+        ]
+      }
+    },
+    {
+      "name": "MarbArmor",
+      "type": "armor",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "marb_armor",
+      "metadata": {
+        "files": [
+          "src/main/java/com/whstu/marb/item/MarbArmorItem.java",
+          "src/main/resources/assets/marb/models/item/marb_armor_chestplate.json",
+          "src/main/resources/assets/marb/models/item/marb_armor_boots.json",
+          "src/main/resources/assets/marb/models/item/marb_armor_helmet.json",
+          "src/main/resources/assets/marb/models/item/marb_armor_leggings.json"
+        ]
+      }
+    },
+    {
+      "name": "MarbPeople",
+      "type": "livingentity",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "marb_people",
+      "metadata": {
+        "files": [
+          "src/main/java/com/whstu/marb/client/renderer/MarbPeopleRenderer.java",
+          "src/main/resources/assets/marb/models/item/marb_people_spawn_egg.json",
+          "src/main/resources/data/marb/forge/biome_modifier/marb_people_biome_modifier.json",
+          "src/main/java/com/whstu/marb/entity/MarbPeopleEntity.java"
+        ]
+      }
+    },
+    {
+      "name": "KillMarbPeople",
+      "type": "loottable",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "kill_marb_people",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/marb/loot_tables/entities/marb_people.json"
+        ]
+      }
+    },
+    {
+      "name": "MarbSword",
+      "type": "tool",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "marb_sword",
+      "metadata": {
+        "files": [
+          "src/main/java/com/whstu/marb/item/MarbSwordItem.java",
+          "src/main/resources/assets/marb/models/item/marb_sword.json"
+        ]
+      }
+    }
+  ],
+  "variable_elements": [],
+  "sound_elements": [],
+  "tag_elements": {
+    "ITEMS:minecraft:swords": [
+      "~CUSTOM:MarbSword"
+    ]
+  },
+  "tab_element_order": {},
+  "language_map": {
+    "en_us": {
+      "entity.marb.marb_people": "马博",
+      "item_group.marb.marb": "马博",
+      "item.marb.marb_armor_helmet": "马博之盔",
+      "item.marb.marb_armor_chestplate": "马博胸甲",
+      "item.marb.marb_sword": "马博之剑",
+      "item.marb.bn": "博奶",
+      "item.marb.marb_armor_boots": "马博之靴",
+      "item.marb.marb_armor_leggings": "马博铁腿",
+      "item.marb.marb_people_spawn_egg": "马博 Spawn Egg"
+    },
+    "zh_cn": {
+      "entity.marb.marb_people": "马博",
+      "item_group.marb.marb": "马博",
+      "item.marb.marb_armor_helmet": "马博之盔",
+      "item.marb.marb_armor_chestplate": "马博胸甲",
+      "item.marb.marb_sword": "马博之剑",
+      "item.marb.bn": "博奶",
+      "item.marb.marb_armor_boots": "马博之靴",
+      "item.marb.marb_armor_leggings": "马博铁腿",
+      "item.marb.marb_people_spawn_egg": "马博 Spawn Egg"
+    }
+  },
+  "foldersRoot": {
+    "name": "~",
+    "children": []
+  },
+  "workspaceSettings": {
+    "modid": "marb",
+    "modName": "马博",
+    "version": "0.0.1",
+    "author": "WHSTU",
+    "websiteURL": "https://whstu.dpdns.org",
+    "license": "All Rights Reserved",
+    "serverSideOnly": false,
+    "requiredMods": [],
+    "dependencies": [],
+    "dependants": [],
+    "mcreatorDependencies": [],
+    "currentGenerator": "neoforge-1.21.4",
+    "credits": "卓然第三帝国提供技术支持",
+    "modElementsPackage": "com.whstu.marb"
+  },
+  "mcreatorVersion": 202500113416
+}

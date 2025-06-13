@@ -1,0 +1,58 @@
+{
+  "mod_elements": [
+    {
+      "name": "Bn",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "bn",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/marb/models/item/bn.json",
+          "src/main/resources/assets/marb/items/bn.json",
+          "src/main/java/com/whstu/marb/item/BnItem.java"
+        ]
+      }
+    }
+  ],
+  "variable_elements": [],
+  "sound_elements": [],
+  "tag_elements": {
+    "ITEMS:minecraft:swords": []
+  },
+  "tab_element_order": {},
+  "language_map": {
+    "en_us": {
+      "item_group.marb.marb": "马博",
+      "item.marb.bn": "Bn",
+      "item.marb.bn.description_0": "可吸食"
+    },
+    "zh_cn": {
+      "item_group.marb.marb": "马博",
+      "item.marb.bn": "Bn",
+      "item.marb.bn.description_0": "可吸食"
+    }
+  },
+  "foldersRoot": {
+    "name": "~",
+    "children": []
+  },
+  "workspaceSettings": {
+    "modid": "marb",
+    "modName": "马博",
+    "version": "0.0.0a",
+    "author": "WHSTU",
+    "websiteURL": "https://whstu.dpdns.org",
+    "license": "All Rights Reserved",
+    "serverSideOnly": false,
+    "modPicture": "marb_milk",
+    "requiredMods": [],
+    "dependencies": [],
+    "dependants": [],
+    "mcreatorDependencies": [],
+    "currentGenerator": "neoforge-1.21.4",
+    "credits": "卓然第三帝国提供技术支持",
+    "modElementsPackage": "com.whstu.marb"
+  },
+  "mcreatorVersion": 202500113416
+}

@@ -26,7 +26,7 @@
 
 > 测试版包含最新的功能，但也可能包含未完善和不稳定的功能。
 
-|   下载渠道    | **🚀 正式版**<br/>[![正式版](https://img.shields.io/github/v/release/whstu/marb?style=flat-square&color=%233fb950&label=)](https://github.com/whstu/marb/releases/latest) |             🚧 测试版<br/>[![测试版](https://img.shields.io/github/v/release/whstu/SeewoKiller?include_prereleases&style=flat-square&label=)](https://github.com/whstu/SeewoKiller/releases/)              |
+|   下载渠道    | **🚀 正式版**<br/>[![正式版](https://img.shields.io/github/v/release/whstu/marb?style=flat-square&color=%233fb950&label=)](https://github.com/whstu/marb/releases/latest) |             🚧 测试版<br/>[![测试版](https://img.shields.io/github/v/release/whstu/marb?include_prereleases&style=flat-square&label=)](https://github.com/whstu/marb/releases/)              |
 |:-:|:-:|:-:|
 |GitHub|[**下载**](https://github.com/whstu/marb/latest)|[下载](https://github.com/whstu/marb/releases)|
 |蓝奏云 密码:0000|[**下载**](https://whstu.lanzouq.com/b00jehgaxg)|[下载](https://whstu.lanzouq.com/b00jehgaxg)|

@@ -282,12 +282,27 @@
       "registry_name": "marb_block",
       "metadata": {
         "files": [
+          "src/main/resources/data/marb/neoforge/biome_modifier/marb_block_biome_modifier.json",
           "src/main/java/com/whstu/marb/block/MarbBlockBlock.java",
+          "src/main/resources/data/marb/worldgen/configured_feature/marb_block.json",
           "src/main/resources/data/marb/loot_table/blocks/marb_block.json",
           "src/main/resources/assets/marb/models/item/marb_block.json",
           "src/main/resources/assets/marb/blockstates/marb_block.json",
+          "src/main/resources/data/marb/worldgen/placed_feature/marb_block.json",
           "src/main/resources/assets/marb/items/marb_block.json",
           "src/main/resources/assets/marb/models/block/marb_block.json"
+        ]
+      }
+    },
+    {
+      "name": "BnToMarbblock",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "bn_to_marbblock",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/marb/recipe/bn_to_marbblock.json"
         ]
       }
     }
@@ -301,11 +316,11 @@
     "ITEMS:minecraft:pickaxes": [
       "~CUSTOM:MarbPickaxe"
     ],
-    "ITEMS:minecraft:leg_armor": [
-      "~CUSTOM:MarbArmor.legs"
-    ],
     "ITEMS:minecraft:hoes": [
       "~CUSTOM:MarbHoe"
+    ],
+    "ITEMS:minecraft:leg_armor": [
+      "~CUSTOM:MarbArmor.legs"
     ],
     "ITEMS:marb:marb_hoe_repair_items": [
       "~CUSTOM:Bn"
@@ -392,7 +407,7 @@
   "workspaceSettings": {
     "modid": "marb",
     "modName": "马博",
-    "version": "0.0.0a",
+    "version": "0.1.0a",
     "author": "WHSTU",
     "websiteURL": "https://whstu.dpdns.org",
     "license": "All Rights Reserved",

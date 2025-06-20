@@ -2,10 +2,14 @@
   "workspacePanelIconSize": "TILES",
   "workspacePanelSortType": "CREATED",
   "workspacePanelSortAscending": true,
-  "projectBrowserSplitPos": 0,
+  "projectBrowserSplitPos": 286,
   "projectBrowserState": {
     "expandedPaths": [
-      "[, 马博]"
+      "[, 马博]",
+      "[, 马博, Resources (Gradle)]",
+      "[, 马博, Resources (Gradle), X:\\MarbWorkspace\\src\\main\\resources\\assets]",
+      "[, 马博, Resources (Gradle), X:\\MarbWorkspace\\src\\main\\resources\\assets, X:\\MarbWorkspace\\src\\main\\resources\\assets\\marb]",
+      "[, 马博, Resources (Gradle), X:\\MarbWorkspace\\src\\main\\resources\\assets, X:\\MarbWorkspace\\src\\main\\resources\\assets\\marb, X:\\MarbWorkspace\\src\\main\\resources\\assets\\marb\\textures]"
     ]
   }
 }

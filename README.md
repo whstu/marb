@@ -1,8 +1,7 @@
 <!--markdownlint-disable MD001 MD033 MD041 MD051-->
-![Banner](https://image-whstu.pages.dev/seewokiller2.png)
 <div align="center">
 
-# <image src="https://marb.whstu.dpdns.org/MarbFiles/marb_banner.png" height="35"/>
+# <image src="https://marb.whstu.dpdns.org/MarbFiles/marb_banner.png" height="70"/>
 
 ![GitHub last commit](https://img.shields.io/github/last-commit/whstu/marb)
 ![Visitors](https://api.visitorbadge.io/api/combined?path=https://github.com/whstu/marb&label=Visitors&countColor=%23263759&style=flat)

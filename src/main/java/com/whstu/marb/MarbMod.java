@@ -28,6 +28,7 @@ import java.util.ArrayList;
 import com.whstu.marb.init.MarbModTabs;
 import com.whstu.marb.init.MarbModItems;
 import com.whstu.marb.init.MarbModEntities;
+import com.whstu.marb.init.MarbModBlocks;
 
 @Mod("marb")
 public class MarbMod {
@@ -39,6 +40,8 @@ public class MarbMod {
 		// End of user code block mod constructor
 		NeoForge.EVENT_BUS.register(this);
 		modEventBus.addListener(this::registerNetworking);
+
+		MarbModBlocks.REGISTRY.register(modEventBus);
 
 		MarbModItems.REGISTRY.register(modEventBus);
 		MarbModEntities.REGISTRY.register(modEventBus);

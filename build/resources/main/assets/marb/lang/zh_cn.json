@@ -1,3 +1,19 @@
 {
-  "item_group.marb.marb": "马博"
+  "item.marb.marb_hoe": "马博之锄",
+  "item.marb.marb_spawn_egg": "马博刷怪蛋",
+  "item_group.marb.marb": "马博",
+  "item.marb.marb_block": "马博块",
+  "item.marb.marb_armor_helmet": "马博铁头",
+  "item.marb.marb_armor_chestplate": "马博胸甲",
+  "item_group.marb.marb_tab": "马博",
+  "item.marb.marb_sword": "马博之剑",
+  "item.marb.bn": "博奶",
+  "item.marb.bn.description_0": "可吸食",
+  "entity.marb.marb": "马博",
+  "item.marb.marb_spade": "马博之铲",
+  "item.marb.marb_axe": "马博之斧",
+  "item.marb.marb_pickaxe": "马博之镐",
+  "item.marb.marb_armor_boots": "马博金靴",
+  "item.marb.marb_armor_leggings": "马博钢腿",
+  "item.marb.marb_sword.description_0": "这不是耐久有多少的问题，而是有没有耐久的问题！"
 }

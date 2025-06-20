@@ -143,6 +143,168 @@
           "src/main/resources/data/marb/recipe/bn_to_shoe.json"
         ]
       }
+    },
+    {
+      "name": "MarbSword",
+      "type": "tool",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "marb_sword",
+      "metadata": {
+        "files": [
+          "src/main/java/com/whstu/marb/item/MarbSwordItem.java",
+          "src/main/resources/assets/marb/items/marb_sword.json",
+          "src/main/resources/assets/marb/models/item/marb_sword.json"
+        ]
+      }
+    },
+    {
+      "name": "MarbPickaxe",
+      "type": "tool",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "marb_pickaxe",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/marb/models/item/marb_pickaxe.json",
+          "src/main/java/com/whstu/marb/item/MarbPickaxeItem.java",
+          "src/main/resources/assets/marb/items/marb_pickaxe.json"
+        ]
+      }
+    },
+    {
+      "name": "MarbAxe",
+      "type": "tool",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "marb_axe",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/marb/items/marb_axe.json",
+          "src/main/resources/assets/marb/models/item/marb_axe.json",
+          "src/main/java/com/whstu/marb/item/MarbAxeItem.java"
+        ]
+      }
+    },
+    {
+      "name": "MarbHoe",
+      "type": "tool",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "marb_hoe",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/marb/items/marb_hoe.json",
+          "src/main/resources/assets/marb/models/item/marb_hoe.json",
+          "src/main/java/com/whstu/marb/item/MarbHoeItem.java"
+        ]
+      }
+    },
+    {
+      "name": "MarbSpade",
+      "type": "tool",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "marb_spade",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/marb/models/item/marb_spade.json",
+          "src/main/resources/assets/marb/items/marb_spade.json",
+          "src/main/java/com/whstu/marb/item/MarbSpadeItem.java"
+        ]
+      }
+    },
+    {
+      "name": "BnToSword",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "bn_to_sword",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/marb/recipe/bn_to_sword.json"
+        ]
+      }
+    },
+    {
+      "name": "BnToPickaxe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "bn_to_pickaxe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/marb/recipe/bn_to_pickaxe.json"
+        ]
+      }
+    },
+    {
+      "name": "BnToAxe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "bn_to_axe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/marb/recipe/bn_to_axe.json"
+        ]
+      }
+    },
+    {
+      "name": "BnToHoe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "bn_to_hoe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/marb/recipe/bn_to_hoe.json"
+        ]
+      }
+    },
+    {
+      "name": "BnToSpade",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "bn_to_spade",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/marb/recipe/bn_to_spade.json"
+        ]
+      }
+    },
+    {
+      "name": "MarbBlock",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "marb_block",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/marb/neoforge/biome_modifier/marb_block_biome_modifier.json",
+          "src/main/java/com/whstu/marb/block/MarbBlockBlock.java",
+          "src/main/resources/data/marb/worldgen/configured_feature/marb_block.json",
+          "src/main/resources/data/marb/loot_table/blocks/marb_block.json",
+          "src/main/resources/assets/marb/models/item/marb_block.json",
+          "src/main/resources/assets/marb/blockstates/marb_block.json",
+          "src/main/resources/data/marb/worldgen/placed_feature/marb_block.json",
+          "src/main/resources/assets/marb/items/marb_block.json",
+          "src/main/resources/assets/marb/models/block/marb_block.json"
+        ]
+      }
+    },
+    {
+      "name": "BnToMarbblock",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "bn_to_marbblock",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/marb/recipe/bn_to_marbblock.json"
+        ]
+      }
     }
   ],
   "variable_elements": [],
@@ -151,44 +313,91 @@
     "ITEMS:minecraft:chest_armor": [
       "~CUSTOM:MarbArmor.body"
     ],
+    "ITEMS:minecraft:pickaxes": [
+      "~CUSTOM:MarbPickaxe"
+    ],
+    "ITEMS:minecraft:hoes": [
+      "~CUSTOM:MarbHoe"
+    ],
     "ITEMS:minecraft:leg_armor": [
       "~CUSTOM:MarbArmor.legs"
     ],
-    "ITEMS:minecraft:head_armor": [
-      "~CUSTOM:MarbArmor.helmet"
+    "ITEMS:marb:marb_hoe_repair_items": [
+      "~CUSTOM:Bn"
+    ],
+    "BLOCKS:minecraft:mineable/pickaxe": [
+      "~CUSTOM:MarbBlock"
+    ],
+    "ITEMS:minecraft:shovels": [
+      "~CUSTOM:MarbSpade"
+    ],
+    "ITEMS:minecraft:axes": [
+      "~CUSTOM:MarbAxe"
     ],
     "ITEMS:marb:marb_armor_repair_items": [
       "~CUSTOM:Bn"
     ],
+    "ITEMS:marb:marb_axe_repair_items": [
+      "~CUSTOM:Bn"
+    ],
+    "ITEMS:marb:marb_spade_repair_items": [
+      "~CUSTOM:Bn"
+    ],
+    "ITEMS:marb:marb_sword_repair_items": [
+      "~CUSTOM:Bn"
+    ],
+    "ITEMS:minecraft:head_armor": [
+      "~CUSTOM:MarbArmor.helmet"
+    ],
+    "ITEMS:minecraft:swords": [
+      "~CUSTOM:MarbSword"
+    ],
     "ITEMS:minecraft:foot_armor": [
       "~CUSTOM:MarbArmor.boots"
+    ],
+    "ITEMS:marb:marb_pickaxe_repair_items": [
+      "~CUSTOM:Bn"
     ]
   },
   "tab_element_order": {},
   "language_map": {
     "en_us": {
+      "item.marb.marb_hoe": "马博之锄",
       "item.marb.marb_spawn_egg": "马博刷怪蛋",
       "item_group.marb.marb": "马博",
+      "item.marb.marb_block": "马博块",
       "item.marb.marb_armor_helmet": "马博铁头",
       "item.marb.marb_armor_chestplate": "马博胸甲",
       "item_group.marb.marb_tab": "马博",
+      "item.marb.marb_sword": "马博之剑",
       "item.marb.bn": "博奶",
+      "item.marb.bn.description_0": "可吸食",
+      "entity.marb.marb": "马博",
+      "item.marb.marb_spade": "马博之铲",
+      "item.marb.marb_axe": "马博之斧",
+      "item.marb.marb_pickaxe": "马博之镐",
       "item.marb.marb_armor_boots": "马博金靴",
       "item.marb.marb_armor_leggings": "马博钢腿",
-      "item.marb.bn.description_0": "可吸食",
-      "entity.marb.marb": "马博"
+      "item.marb.marb_sword.description_0": "这不是耐久有多少的问题，而是有没有耐久的问题！"
     },
     "zh_cn": {
+      "item.marb.marb_hoe": "马博之锄",
       "item.marb.marb_spawn_egg": "马博刷怪蛋",
       "item_group.marb.marb": "马博",
+      "item.marb.marb_block": "马博块",
       "item.marb.marb_armor_helmet": "马博铁头",
       "item.marb.marb_armor_chestplate": "马博胸甲",
       "item_group.marb.marb_tab": "马博",
+      "item.marb.marb_sword": "马博之剑",
       "item.marb.bn": "博奶",
+      "item.marb.bn.description_0": "可吸食",
+      "entity.marb.marb": "马博",
+      "item.marb.marb_spade": "马博之铲",
+      "item.marb.marb_axe": "马博之斧",
+      "item.marb.marb_pickaxe": "马博之镐",
       "item.marb.marb_armor_boots": "马博金靴",
       "item.marb.marb_armor_leggings": "马博钢腿",
-      "item.marb.bn.description_0": "可吸食",
-      "entity.marb.marb": "马博"
+      "item.marb.marb_sword.description_0": "这不是耐久有多少的问题，而是有没有耐久的问题！"
     }
   },
   "foldersRoot": {
@@ -198,7 +407,7 @@
   "workspaceSettings": {
     "modid": "marb",
     "modName": "马博",
-    "version": "0.0.0a",
+    "version": "0.1.0a",
     "author": "WHSTU",
     "websiteURL": "https://whstu.dpdns.org",
     "license": "All Rights Reserved",

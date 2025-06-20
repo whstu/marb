@@ -1,0 +1,7 @@
+{
+  "variants": {
+    "": {
+      "model": "marb:block/marb_block"
+    }
+  }
+}

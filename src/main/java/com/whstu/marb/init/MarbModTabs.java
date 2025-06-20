@@ -24,5 +24,11 @@ public class MarbModTabs {
 				tabData.accept(MarbModItems.MARB_ARMOR_CHESTPLATE.get());
 				tabData.accept(MarbModItems.MARB_ARMOR_LEGGINGS.get());
 				tabData.accept(MarbModItems.MARB_ARMOR_BOOTS.get());
+				tabData.accept(MarbModItems.MARB_SWORD.get());
+				tabData.accept(MarbModItems.MARB_PICKAXE.get());
+				tabData.accept(MarbModItems.MARB_AXE.get());
+				tabData.accept(MarbModItems.MARB_HOE.get());
+				tabData.accept(MarbModItems.MARB_SPADE.get());
+				tabData.accept(MarbModBlocks.MARB_BLOCK.get().asItem());
 			}).build());
 }

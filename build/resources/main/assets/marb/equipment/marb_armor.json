@@ -1,0 +1,14 @@
+{
+  "layers": {
+    "humanoid": [
+      {
+        "texture": "marb:marb_armor"
+      }
+    ],
+    "humanoid_leggings": [
+      {
+        "texture": "marb:marb_armor"
+      }
+    ]
+  }
+}

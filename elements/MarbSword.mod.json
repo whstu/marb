@@ -1,0 +1,41 @@
+{
+  "_fv": 77,
+  "_type": "tool",
+  "definition": {
+    "toolType": "Sword",
+    "renderType": 0,
+    "blockingRenderType": 0,
+    "texture": "sword",
+    "customModelName": "Normal",
+    "blockingModelName": "Normal blocking",
+    "name": "马博之剑",
+    "specialInformation": {
+      "fixedValue": [
+        "这不是耐久有多少的问题，而是有没有耐久的问题！"
+      ]
+    },
+    "creativeTabs": [
+      {
+        "value": "CUSTOM:MarbTab"
+      }
+    ],
+    "efficiency": 12.0,
+    "attackSpeed": 100.0,
+    "enchantability": 114514,
+    "damageVsEntity": 114514.0,
+    "usageCount": 0,
+    "glowCondition": {
+      "fixedValue": false
+    },
+    "repairItems": [
+      {
+        "value": "CUSTOM:Bn"
+      }
+    ],
+    "immuneToFire": true,
+    "blockDropsTier": "NETHERITE",
+    "blocksAffected": [],
+    "stayInGridWhenCrafting": false,
+    "damageOnCrafting": false
+  }
+}

@@ -1,0 +1,13 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "marb:block/marbblock",
+    "up": "marb:block/marbblock",
+    "north": "marb:block/marbblock",
+    "east": "marb:block/marbblock",
+    "south": "marb:block/marbblock",
+    "west": "marb:block/marbblock",
+    "particle": "marb:block/marbblock"
+  },
+  "render_type": "solid"
+}

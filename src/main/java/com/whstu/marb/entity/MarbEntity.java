@@ -38,7 +38,7 @@ import com.whstu.marb.init.MarbModEntities;
 public class MarbEntity extends PathfinderMob {
 	public MarbEntity(EntityType<MarbEntity> type, Level world) {
 		super(type, world);
-		xpReward = 11451;
+		xpReward = 100000;
 		setNoAi(false);
 		setCustomName(Component.literal("马博！"));
 		setCustomNameVisible(true);

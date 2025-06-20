@@ -4,7 +4,7 @@ license="All Rights Reserved"
 
 [[mods]]
 modId="marb"
-version="0.0.0"
+version="0.1.0"
 displayName="\u9A6C\u535A"
 displayURL="https://whstu.dpdns.org"
 logoFile="logo.png"
